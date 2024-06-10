@@ -1,0 +1,37 @@
+header {
+    padding: 5px 2rem;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+
+        a {
+            color: rgb(30, 29, 29);
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+    }
+
+    button {
+        padding: 10px 1.5rem;
+        border-radius: 5px;
+        border: none;
+        background-color: #2AC466;
+        color: white;
+    }
+}

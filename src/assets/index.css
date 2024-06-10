@@ -1,0 +1,11 @@
+.herostudent{
+    position: relative;
+    img{
+        position: absolute;
+        bottom: 20px;
+        left: 50px;
+        height: 320px;
+        aspect-ratio: 5/4;
+    }
+   
+}
