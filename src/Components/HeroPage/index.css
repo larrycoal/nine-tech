@@ -67,7 +67,6 @@
         flex: 1;
         position: relative;
 
-
         .cards {
             background-color: #EAFFF3;
             width: fit-content;
@@ -91,18 +90,33 @@
         #card_one {
             position: absolute;
             bottom: 25rem;
+
+            svg {
+                width: 2em;
+                height: 2em
+            }
         }
 
         #card_two {
             position: absolute;
             bottom: 5rem;
             left: -3rem;
+
+            svg {
+                width: 2em;
+                height: 2em
+            }
         }
 
         #card_three {
             position: absolute;
             bottom: 15rem;
             right: 12rem;
+
+            svg {
+                width: 2em;
+                height: 2em
+            }
         }
     }
 }

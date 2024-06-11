@@ -1,11 +1,30 @@
 import heroStudent from "./student.png"
+import baStockone from "./ba_stck_img_one.jpeg"
+import baStocktwo from "./ba_stck_img_two.jpeg"
+import baStockthree from "./ba_stck_img_three.jpeg"
+
 import "./index.css"
 export const HeroStudent = () => {
     return (
-        <img src={heroStudent}/>
+        <img src={heroStudent} alt="a student working on his computer" />
     )
 }
 
+export const BaImgOne = () => {
+    return (
+        <img src={baStockone} alt="a student working on his computer" />
+    )
+}
+export const BaImgTwo = () => {
+    return (
+        <img src={baStocktwo} alt="a student working on his computer" />
+    )
+}
+export const BaImgThree = () => {
+    return (
+        <img src={baStockthree} alt="a student working on his computer" />
+    )
+}
 export const StudentBck = () => {
     return (
         <svg width="353" height="431" viewBox="0 0 353 431" fill="none" xmlns="http://www.w3.org/2000/svg">
