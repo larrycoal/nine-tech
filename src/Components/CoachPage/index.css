@@ -1,0 +1,33 @@
+.coachpage_wrapper {
+    background-color: #eafff3;
+    display: flex;
+    padding: 4rem 5rem;
+    gap: 2rem;
+
+    .left {
+        flex: 1;
+        img {
+            object-fit: cover;
+            width: 70%;
+        }
+        p {
+            font-size: 1.2rem;
+            span:nth-child(1) {
+                font-weight: bold;
+            }
+            span:nth-child(2) {
+                font-style: italic
+            }
+        }
+    }
+    .right {
+        flex: 1;
+        h2{
+            margin-bottom: 1rem;
+        }
+        p{
+            line-height: 25px;
+            letter-spacing: 1.2px;
+        }
+    }
+}
